@@ -46,7 +46,7 @@ class ProdukTest extends TestCase
         $response->assertStatus(200);
     }
 
-    public function test_add_data_produk()
+    public function test_create_data_produk()
     {
         $response = $this->followingRedirects()->post('/admin/produk', [
             'nama_beras' => 'Beras Fortune',
@@ -75,13 +75,25 @@ class ProdukTest extends TestCase
         $response->assertStatus(200);
     }
 
-    // public function test_delete_produk()
-    // {
-    //     $data = Beras::find(1);
+    public function test_update_produk()
+    {
+        $data = Beras::where('id', 2)->first();
 
-    //     $this->followingRedirects()->delete($data->id);
-    //     $this->assertDatabaseHas('id', $data->toArray());
+        $this->followingRedirects()->put($data->id, [
+            'produk' => 'test update'
+        ]);
 
-    //     $this->assertTrue(true);
-    // }
+        $this->assertDatabaseHas('beras', $data->toArray());
+        $this->assertTrue(true);
+    }
+
+    public function test_delete_produk()
+    {
+        $data = Beras::where('id', 2)->first();
+
+        $this->assertDatabaseHas('beras', $data->toArray());
+        $this->followingRedirects()->delete($data->id);
+
+        $this->assertTrue(true);
+    }
 }
