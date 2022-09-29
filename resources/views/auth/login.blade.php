@@ -53,7 +53,7 @@
               </div>
   
               <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-block mb-4">
+              <button type="submit" name="login" class="btn btn-primary btn-block mb-4">
                 {{ __('Login') }}
               </button>
 

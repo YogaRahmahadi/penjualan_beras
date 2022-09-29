@@ -49,16 +49,16 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-// Route::middleware(['auth', 'isAdmin'])->group(function () {
-Route::prefix('admin')->group(function () {
-    Route::resource('home', HomeController::class);
-    Route::resource('users', UserController::class);
-    Route::resource('produk', ProdukController::class);
-    Route::resource('penjualan', PenjualanController::class);
-    Route::resource('pembayaran', PembayaranController::class);
-    Route::get('/laporan', [PembayaranController::class, 'cetak_laporan'])->name('cetak_laporan');
+Route::middleware(['auth', 'isAdmin'])->group(function () {
+    Route::prefix('admin')->group(function () {
+        Route::resource('home', HomeController::class);
+        Route::resource('users', UserController::class);
+        Route::resource('produk', ProdukController::class);
+        Route::resource('penjualan', PenjualanController::class);
+        Route::resource('pembayaran', PembayaranController::class);
+        Route::get('/laporan', [PembayaranController::class, 'cetak_laporan'])->name('cetak_laporan');
+    });
 });
-// });
 
 Route::middleware('auth')->group(function () {
     Route::get('/user', [PelangganHomeController::class, 'index']);
