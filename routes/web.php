@@ -39,15 +39,15 @@ Route::get('/', function () {
 //     return view('user.home.index');
 // });
 
-Route::get('/admin/home', function () {
-    return view('admin.home.index');
-});
+// Route::get('/admin/home', function () {
+//     return view('admin.home.index');
+// });
 
 Route::get('/', [PelangganHomeController::class, 'index']);
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::middleware(['auth', 'isAdmin'])->group(function () {
     Route::prefix('admin')->group(function () {

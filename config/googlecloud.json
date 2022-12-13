@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "global-terrain-366200",
+  "private_key_id": "6cefccb411e386177862219d452eb2d2f5ed6cdd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZ0XIVPSET0RJ/\ndnYaLVaOKPiNWNrGwfu+sb/Jvp1CfUixEmVxdh+yMeetdoct2FJeivTnoJeDSbJE\ntIq6kaSbEHb7KLEV2lYZOmMFzJcIQsEU6z7TuaIuQqYCncPZPZfJXZwjCsNpiT16\nSd3tqZfsQgYqWWh9iyIPnRltUQMsoIne4UDGA4DEV7CvJp8ai8jHs7Oryg1EVewv\n7xGNcTucCZIXuVAKu9V1WSrr0Gp9Y25EY3f9kf16dbx9f5nAhKwhfOdmfaqQzwU9\nvETPAz5cP5Anc/JB5LPCLMiucd3ioQMczzXGlsJDi29sHTbLQ07lz8f0eEvNIfBl\nxvxH3cSTAgMBAAECggEAAYvSbk8c4wHGdCjiy0E8Tg6iQ6UG5fYhcrJ/YV+rCFmD\nKTcsdTVoNbaufLpzEE13l2MIpE2jguxzDmiioiPrGDm3z5K7QIbfN80JOgGV64SP\nYBWtuo2PCTvJKk475sDNMQVTiXf4yOR2m6EVWFl3S9F0wGjlAI0tJ0CU6ISDLYuJ\nXNs9nms224JcYCFkPhDR21BIfd/0qqkQvxmQyTiiaKxMq9IpxabVxfZPREGoIDvd\ni3OXlLYUXK19RFXS8Hx0riuFwpTklx1KumqYgxusXYJiIxRO7hjwe+QLjiNPh6PO\no3j1MCjwja039/prTdQihkv2Pg7LeNqAPCDQY7UgQQKBgQDNqf2mzStXPkuXS9OV\nZWwGaZXbeJmN8zIGCernu0LdptW37LH1CqY/ZsqR2YETxIiaW9YKmn9L03M+YuoN\n2HLOMFZL4a9sDZJOmbdlBuh4PxeVd0WUanCsyvci+P7Q5M/q9S+35PI5qtT97drp\nf13ETO5Zo6hwf84J6RHHj8OrMwKBgQC/dwS/+Jtj67tm36MH2Ix3qWg6lV/IQ3h/\nn7LyjNjju2oqWGLrrI8NZGexPzODaQXVFKB0vSTX318AIvftikOWBiSE2m6gF1bE\nfApMkyPUdtjt0G83NnOV3PfF7zrgUmZ3jhFPa3WJyCrFp/2VQ3qrSaIjkU4IFZiP\nwgg1QCCBIQKBgQCwtvf0cyZieGyLO+Q54kPH3sGdKysGBYleFvd41jbGLaxFtWPT\noarnn3M/jxyR17VorLBlvArVJINJf8SM0QcUlAQSf4Ez3xVv5DTo4d6uM8gX7bwj\norHeRyfDLSAGbhUZVkQCRv66/ka1ScNoDsCLA29qJm18/NQVP+a/CpCecQKBgHHw\nyUHZF9hB2/dflSzBIO7BQQbECAkspdQFXL/dM+FqkcZ7bPrlaQhGPTMM8oH8iP0C\nVm7CdN+GzYlORg71njz0kN0DBJx+5yLs0lA5rDPvOi9kQBsya1y+8DC5qmb+gn4Z\nbJG/2GXTWijgTRd73c97dWMHQNGs0GqUxL+z1uQhAoGAHXY3dv9YM9dXKT6VZJEi\nTmvfAb6yEvf5AtFRrzcyx1i436YuUBwGGbwlbGXrfIFpwY0bWWR1GtTzG4KcgK19\nsVK0Kj3T0GUXmwTuulVSBmOciD6X9Z5c1aQ/P0NBRxhpaw1Y9IlCwqiQsPf6+TZj\nCbUa+pJrU1ozlGBsu0hIvTA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "server-laravel-yogarahmahadi@global-terrain-366200.iam.gserviceaccount.com",
+  "client_id": "100681354902278540200",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/server-laravel-yogarahmahadi%40global-terrain-366200.iam.gserviceaccount.com"
+}
